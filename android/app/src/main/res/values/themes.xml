@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!-- "Light" en vez de "DayNight": así la app se queda siempre en tema claro,
+         sin importar si el celular tiene activado el modo oscuro del sistema. -->
+    <style name="Base.Theme.CitasYa" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Montserrat como fuente por defecto de toda la app (los títulos/subtítulos la
+             pisan puntualmente con android:fontFamily="@font/poppins_bold" en su layout).
+             OJO: solo "android:fontFamily", NUNCA agregar también "fontFamily" (sin prefijo)
+             aquí - ese atributo de AppCompat pisa cualquier android:fontFamily puesto
+             directo en un TextView/Button. -->
+        <item name="android:fontFamily">@font/montserrat</item>
+        <!-- Por si el fabricante del celular fuerza un "modo oscuro" automático sobre
+             apps que no lo declaran: lo desactivamos explícitamente. -->
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="Theme.CitasYa" parent="Base.Theme.CitasYa" />
+</resources>

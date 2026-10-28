@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Citas"
+        android:icon="@drawable/icon_citas"
+        android:title="Citas"/>
+    <item
+        android:id="@+id/Historial"
+        android:icon="@drawable/icon_historial"
+        android:title="Historial" />
+    <item
+        android:id="@+id/Notificaciones"
+        android:icon="@drawable/icon_notificaciones"
+        android:title="Notificaciones" />
+    <item
+        android:id="@+id/Perfil"
+        android:icon="@drawable/icon_perfil"
+        android:title="Perfil"
+        />
+</menu>

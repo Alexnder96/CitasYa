@@ -1,0 +1,13 @@
+# Android
+*.iml
+.gradle/
+/android/local.properties
+/android/build/
+/android/app/build/
+/android/.idea/
+/android/captures/
+.externalNativeBuild
+.cxx
+# Sistema
+.DS_Store
+Thumbs.db
